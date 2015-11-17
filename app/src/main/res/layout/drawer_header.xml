@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/primary_material_dark"
+    android:layout_height="match_parent"
+    >
+
+   <com.pkmmte.view.CircularImageView
+       android:layout_width="72dp"
+       android:layout_height="72dp"
+       app:border="true"
+       android:src="@drawable/ic_launcher"
+       app:border_width="4dp"
+       app:shadow ="true"
+       app:border_color="@android:color/white"
+       android:layout_marginTop="32dp"
+       android:layout_marginLeft="8dp"
+       android:layout_marginRight="8dp"
+       android:layout_marginBottom="32dp"
+       />
+   <LinearLayout
+
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+       <TextView
+           android:textSize="20sp"
+           android:layout_gravity="right"
+           android:text="HI"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:textSize="20sp"
+           android:layout_gravity="right"
+           android:text="TT"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@color/accentColor"/>
+       <TextView
+           android:textColor="@android:color/holo_blue_dark"
+           android:onClick="onClick1"
+           android:layout_gravity="right"
+           android:textSize="14sp"
+           android:text="thuctran2217@gmail.com"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<com.example.tt.myapplication.MyLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.tt.myapplication.SubActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+    
+   <com.example.tt.myapplication.MyView
+       android:background="@android:color/darker_gray"
+       android:layout_gravity="center"
+       android:layout_width="200dp"
+       android:layout_height="200dp"/>
+</com.example.tt.myapplication.MyLayout>

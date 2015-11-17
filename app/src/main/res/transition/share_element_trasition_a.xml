@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+    android:duration="3000"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <changeBounds/>
+    <!--duration must be <= styles/v21 <item name="android:windowTransitionBackgroundFadeDuration">3000</item>-->
+</transitionSet>
